@@ -1,5 +1,6 @@
 Face Mask Detection using OpenCV and TensorFlow
 This project is a simple face mask detection application using OpenCV and TensorFlow in Python. It utilizes a pre-trained deep learning model (MobileNetV2) to classify whether a person in an image or video frame is wearing a face mask or not. The Haar Cascade classifier is used for face detection, and the model is loaded from a saved h5 file. The application annotates the detected faces with rectangles and labels indicating whether they are wearing masks or not.
+
 Important Notes:
 
 If you plan to use this code with a live video feed, you need to continuously capture frames from the video feed, process each frame using the face_mask_detector function, and then display the result.
